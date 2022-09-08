@@ -11,6 +11,7 @@ body{
     margin: auto;
 }
 
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -62,4 +63,31 @@ main .info{
     font-size: 10px;
     background-color: rgba(0, 0, 0, 0.219);
     padding: 5px;
+}
+
+/*site_footer*/
+
+#site_footer{
+    margin-top: 3rem;
+    
+    background-color: #222222;
+    color: white;
+}
+
+.icons_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons_right{
+    padding: 20px;
+    color: red;
+    background-color: #4A4A4A;
+}
+.icons_left{
+    display: flex;
+    padding-top: 10px;
+}
+.microphone, .webcam{
+    text-align: center;
 }

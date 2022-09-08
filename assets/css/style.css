@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*site_header*/
+
+#site_header{
+    margin-bottom: 3rem;
+}
+
+.icons{
+    margin-top: 0.5rem;
+    text-align: end;
+}
+
+
+header .icons .first_icon, .second_icon{
+    display: inline;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: rgba(211, 211, 211, 0.473);
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: end;
+}

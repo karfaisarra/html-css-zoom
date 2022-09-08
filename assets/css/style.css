@@ -69,7 +69,7 @@ main .info{
 
 #site_footer{
     margin-top: 3rem;
-    
+    height: 100px;
     background-color: #222222;
     color: white;
 }
@@ -80,14 +80,18 @@ main .info{
 }
 
 .icons_right{
-    padding: 20px;
+    padding: 40px;
     color: red;
     background-color: #4A4A4A;
 }
-.icons_left{
+.icons_left, .icons_center{
     display: flex;
-    padding-top: 10px;
+    padding-top: 20px;
 }
-.microphone, .webcam{
+.microphone, .webcam, .invite, .participants, .polling, .share, .chat, .record, .room, .more{
     text-align: center;
+    padding-left: 7px;
+}
+.share i{
+    color: greenyellow;
 }

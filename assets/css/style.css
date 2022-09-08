@@ -14,8 +14,20 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
+    margin-right: -5px;
 }
-
+.col{
+    width: calc(100% / 7);
+    position: relative;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+.col .image{
+    background-image: url(../img/1.jpg);
+    background-size:cover;
+    height: 80px;
+    width: 100%;
+}
 
 /*site_header*/
 
@@ -39,4 +51,15 @@ header .icons .first_icon, .second_icon{
     border-radius: 5px;
     font-size: 10px;
     text-align: end;
+}
+/*site_main*/
+
+main .info{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 10px;
+    background-color: rgba(0, 0, 0, 0.219);
+    padding: 5px;
 }
